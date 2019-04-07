@@ -1,1 +1,1 @@
-worker: PyBot.py
+worker: lein run -m pybot.py
