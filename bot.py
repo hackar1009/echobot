@@ -1,7 +1,10 @@
 import discord
 from discord.ext import commands
+from discord.ext.commands import bot
+import asynico
 import random
-import asyncio
+import requests
+import os
 
 description = '''EchoBot by EchoNoahGaming'''
 bot = commands.Bot(command_prefix='-', description=description)
