@@ -27,4 +27,4 @@ async def embed(*):
 	embed.set_footer(text="By EchoNoahGaming")
 	await ctx.send("", embed=embed)
 
-bot.run(str(os.environ.get('BOT_TOKEN')))
+client.run(str(os.environ.get('BOT_TOKEN')))
